@@ -42,7 +42,7 @@ if ($filehandler) {
 					convert_urls : false,
 					entity_encoding: "raw",
 					extended_valid_elements : "iframe[src|width|height|class|id|type|frameborder]",
-					content_css: "<?php echo FULLWEBPATH . '/' . ZENFOLDER . '/' . PLUGIN_FOLDER; ?>/tiny_mce/config/content.css",
+					content_css: "<?php echo FULLWEBPATH . '/' . USER_PLUGIN_FOLDER; ?>/tiny_mce/config/content.css",
 					setup : function(ed) {
 	ed.onInit.add(function(ed){
 	$('#mce_fullscreen_container').css('background', '#FAFAFA');

@@ -5,7 +5,7 @@
  * Zenphoto comment form plugin default configuration
  */
 ?>
-<script type="text/javascript" src="<?php echo WEBPATH . "/" . ZENFOLDER . '/' . PLUGIN_FOLDER; ?>/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript" src="<?php echo WEBPATH . "/" . USER_PLUGIN_FOLDER; ?>/tiny_mce/tiny_mce.js"></script>
 <script type="text/javascript">
 	// <!-- <![CDATA[
 	tinyMCE.init({
@@ -34,7 +34,7 @@
 		document_base_url: "<?php echo WEBPATH . "/"; ?>",
 		convert_urls: false,
 		entity_encoding: "raw",
-		content_css: "<?php echo FULLWEBPATH . '/' . ZENFOLDER . '/' . PLUGIN_FOLDER; ?>/tiny_mce/config/content.css",
+		content_css: "<?php echo FULLWEBPATH . '/' . USER_PLUGIN_FOLDER; ?>/tiny_mce/config/content.css",
 		setup: function(ed) {
 			ed.onInit.add(function(ed) {
 				$('#mce_fullscreen_container').css('background', '#FAFAFA');
