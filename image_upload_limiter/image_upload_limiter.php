@@ -35,7 +35,7 @@ class uploadlimit {
 	 * class instantiation function
 	 *
 	 */
-	function uploadlimit() {
+	function __construct() {
 		setOptionDefault('imageuploadlimit', 999);
 		setOptionDefault('imageuploadlimit_newalbum', 0);
 	}
