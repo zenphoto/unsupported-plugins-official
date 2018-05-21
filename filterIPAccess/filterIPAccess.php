@@ -29,7 +29,7 @@ class filterIPAccess {
 	 *
 	 * @return security_logger
 	 */
-	function filterIPAccess() {
+	function __construct() {
 		setOptionDefault('filterIPAccess_IP_list', Serialize(array()));
 		setOptionDefault('filterIPAccess_IP_type', 'allow');
 	}

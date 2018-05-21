@@ -19,7 +19,7 @@ $plugin_version = '1.4.3';
  */
 class text_watermark {
 
-	function text_watermark() {
+	function __construct() {
 		$fonts = zp_getFonts();
 		$fon = array_shift($fonts);
 		setOptionDefault('text_watermark_color','#FFFFFF');

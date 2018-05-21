@@ -42,7 +42,7 @@ if ($enableimage) {
  */
 class filter_file_searches_options {
 
-	function filter_file_searches_options() {
+	function __construct() {
 
 	}
 

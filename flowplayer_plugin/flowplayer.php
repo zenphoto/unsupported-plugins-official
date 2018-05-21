@@ -32,7 +32,7 @@ if (!defined('FLOW_PLAYER_MP3_HEIGHT')) define ('FLOW_PLAYER_MP3_HEIGHT', 28);
  */
 class flowplayer {
 
-	function flowplayer() {
+	function __construct() {
 		setOptionDefault('flow_player_width', '320');
 		setOptionDefault('flow_player_height', '240');
 		setOptionDefault('flow_player_controlbarbackgroundcolor', '0x567890');

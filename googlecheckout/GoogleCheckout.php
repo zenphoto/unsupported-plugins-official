@@ -42,7 +42,7 @@ addPluginScript('<link rel="stylesheet" href="' . FULLWEBPATH . "/" . USER_PLUGI
  */
 class GoogleCheckoutOptions {
 
-	function GoogleCheckoutOptions() {
+	function __construct() {
 
 		$pricelist = array("4x6:" . gettext("Matte") => '5.75', "4x6:" . gettext("Glossy") => '10.00', "4x6:" . gettext("Paper") => '8.45',
 				"8x10:" . gettext("Matte") => '15.00', "8x10:" . gettext("Glossy") => '20.00', "8x10:" . gettext("Paper") => '8.60',

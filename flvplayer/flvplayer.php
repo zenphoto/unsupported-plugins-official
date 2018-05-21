@@ -54,7 +54,7 @@ chdir($curdir);
  */
 class flvplayer {
 
-	function flvplayer() {
+	function __construct() {
 		setOptionDefault('flv_player_width', '320');
 		setOptionDefault('flv_player_height', '240');
 		setOptionDefault('flv_player_backcolor', '#FFFFFF');

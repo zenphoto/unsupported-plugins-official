@@ -25,7 +25,7 @@ class admin_login {
 	 *
 	 * @return admin_login
 	 */
-	function admin_login() {
+	function __construct() {
 		setOptionDefault('logger_log_guests', 1);
 		setOptionDefault('logger_log_admin', 1);
 		setOptionDefault('logger_log_type', 'all');

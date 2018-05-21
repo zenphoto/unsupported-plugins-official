@@ -25,7 +25,7 @@ zp_register_filter('texteditor_config', 'tinymceConfigJS');
  */
 class tinymceOptions {
 
-	function tinymceOptions() {
+	function __construct() {
 		setOptionDefault('tinymce_zenphoto', 'zenphoto-default.js.php');
 		setOptionDefault('tinymce_zenpage', 'zenpage-default-full.js.php');
 		setOptionDefault('tinymce_tinyzenpage_customimagesize', '400');

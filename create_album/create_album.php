@@ -33,7 +33,7 @@ class create_album {
 	/**
 	 * class instantiation function
 	 */
-	function create_album() {
+	function __construct() {
 		setOptionDefault('create_album_default', 1);
 		$default = getOption('create_album_default');
 		global $_zp_authority;

@@ -23,7 +23,8 @@ zp_register_filter('plugin_tabs', 'cacheHeader_options::tab');
 unset($_cacheHeader_side);
 
 class cacheHeader_options {
-	function cacheHeader_options() {
+	
+	function __construct() {
 		setOptionDefault('cacheHeader_store', 1);
 		setOptionDefault('cacheHeader_cache', 1);
 		setOptionDefault('cacheHeader_pre-check', 0);
