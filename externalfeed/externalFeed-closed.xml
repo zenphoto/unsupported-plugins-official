@@ -1,0 +1,14 @@
+			<external version="1.0" >
+				
+				<channel>
+					<link href="http://localhost/zenphoto-dev/zp-core/setup/setup_pluginOptions.php?plugin=site_upgrade" />
+					<language>en-US</language>
+											<item>
+							<title><![CDATA[externalFeed suspended]]></title>
+							<link>http://localhost/zenphoto-dev/</link>
+							<description><![CDATA[The external feed is currently not available.]]></description>
+														<pubDate>Tue, 22 May 2018 22:11:11 +0200</pubDate>
+						</item>
+										</channel>
+			</external>
+			
