@@ -37,7 +37,7 @@ if (defined('OFFSET_PATH')) {
 
 	define('OFFSET_PATH', 3);
 
-	require_once(SERVERPATH . '/' .  ZENFOLDER . '/admin-globals.php');
+	require_once('../zp-core/admin-globals.php');
 
 	if (extensionEnabled('zenpage')) {
 		require_once(SERVERPATH . '/' .  ZENFOLDER . '/' . PLUGIN_FOLDER . '/zenpage/zenpage-admin-functions.php');
