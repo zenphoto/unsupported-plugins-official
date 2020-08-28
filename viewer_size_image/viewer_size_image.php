@@ -9,7 +9,7 @@
  * a cookie and used as the default for future image viewing.
  *
  * Sizes as used for the default size and the allowed size list are strings with the
- * The form is <var>$s=<i>size</i></var> or <var>$h=<i>heigh</i>; $w=<i>width</i>;</var>.... See <i>printCustomSizedImage()</i> for
+ * The form is <var>$s=<i>size</i></var> (separated by a semi-colon) or <var>$h=<i>heigh</i>; $w=<i>width</i>;</var>.... (each property separated by a comma) See <i>printCustomSizedImage()</i> for
  * information about how these values are used.
  *
  * If <var>$s</var> is present, the plugin will use <i>printCustomSizedImage()</i> to display the image. Otherwise
@@ -168,7 +168,7 @@ function printUserSizeSelector($text = '', $default = NULL, $usersizes = NULL) {
 				$('#image img').attr('width', w);
 				$('#image img').attr('height', h);
 				$('#image img').attr('src', url);
-				document.cookie = 'viewer_size_image_saved=' + $(obj).attr('value') + '; expires=<?php echo date('Y-m-d H:i:s', time() + COOKIE_PESISTENCE); ?>; path=<?php echo $cookiepath ?>';
+				document.cookie = 'viewer_size_image_saved=' + $(obj).attr('value') + '; expires=<?php echo date('Y-m-d H:i:s', time() + COOKIE_PERSISTENCE); ?>; path=<?php echo $cookiepath ?>';
 			}
 		<?php
 	}
