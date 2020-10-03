@@ -1,6 +1,6 @@
 # Unsupported former official Zenphoto plugins
 
-This is an archive of former official plugins. There were once officially supported and included in the relase package.
+This is an archive of former official plugins. There were once officially supported and included in the release package.
 
 Readme files or script comments will describe their use and these plugins are also listed on our site's extensions section:
 http://www.zenphoto.org/news/category/extensions
@@ -16,5 +16,5 @@ Plugins are folders found in the `plugins` folder. They should be placed in the 
 Note that what should be copied is the content of the folder. This will typically be a PHP script and a like-named folder with other content. The PHP script needs to be in the root of the "plugins" folder.
 http://www.zenphoto.org/news/using-plugins-and-third-party-features#installing-third-party-plugins
 
-##License
+## License
 Most of the contents is **GPL v2 or later** licensed, e.g. those created by current or former ZenphotoCMS team members. But since there are also third party solutions collected *please see each tool for its exact licensing*.
