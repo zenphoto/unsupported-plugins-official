@@ -13,7 +13,7 @@
 $filehandler = zp_apply_filter('tinymce_zenpage_config', NULL);
 global $_zp_rtl_css;
 ?>
-<script src="<?php echo WEBPATH . "/" . ZENFOLDER . "/" . PLUGIN_FOLDER; ?>/tinymce4/tinymce.min.js"></script>
+<script src="<?php echo WEBPATH . "/" . USER_PLUGIN_FOLDER; ?>/tinymce4/tinymce.min.js"></script>
 <script>
 	tinymce.init({
 		selector: "textarea.content,textarea.desc,textarea.extracontent,textarea.texteditor",
@@ -34,7 +34,7 @@ global $_zp_rtl_css;
 		directionality: "<?php echo $_zp_rtl_css ? 'rtl' : 'ltr'; ?>",
 		relative_urls: false,
 		image_advtab: true,
-		content_css: "<?php echo FULLWEBPATH . '/' . ZENFOLDER . '/' . PLUGIN_FOLDER; ?>/tinymce4/config/content.css",
+		content_css: "<?php echo FULLWEBPATH . '/' . USER_PLUGIN_FOLDER; ?>/tinymce4/config/content.css",
 <?php
 if ($filehandler) {
 	?>

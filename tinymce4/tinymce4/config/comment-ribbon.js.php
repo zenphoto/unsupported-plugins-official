@@ -6,7 +6,7 @@
  */
  global $_zp_rtl_css;
 ?>
-<script src="<?php echo WEBPATH . "/" . ZENFOLDER . "/" . PLUGIN_FOLDER; ?>/tinymce4/tinymce.min.js"></script>
+<script src="<?php echo WEBPATH . "/" . USER_PLUGIN_FOLDER; ?>/tinymce4/tinymce.min.js"></script>
 <script>
 	tinymce.init({
 		selector: "textarea.textarea_inputbox,textarea.texteditor_comments",
@@ -41,6 +41,6 @@
 		menubar: "edit insert view format tools",
 		toolbar: false,
 		statusbar: false,
-		content_css: "<?php echo FULLWEBPATH . '/' . ZENFOLDER . '/' . PLUGIN_FOLDER; ?>/tinymce4/config/content.css",
+		content_css: "<?php echo FULLWEBPATH . '/' . USER_PLUGIN_FOLDER; ?>/tinymce4/config/content.css",
 	});
 </script>
